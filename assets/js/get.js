@@ -23,6 +23,7 @@ fetch('https://reqres.in/api/users?per_page=12')
 					</div>
 				`;
 			})
+			// a chaque utilisateur join .map((user) => {return ` <div></div>} les uns à la suite des autres
 			.join('');
 		document.querySelector('#getUsers').insertAdjacentHTML('afterbegin', html);
 	})

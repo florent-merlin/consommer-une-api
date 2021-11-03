@@ -1,4 +1,4 @@
-//  -----------------------------put
+//  ----------------------------- PUT -------------------------
 // on récuperer le button du formulaire 
 const putForm = document.querySelector('#form_put button[type=submit]');
 
